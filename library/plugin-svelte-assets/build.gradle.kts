@@ -15,8 +15,8 @@ repositories {
 gradlePlugin {
     plugins {
         create("svelteAssetsPlugin") {
-            id = "com.bylazar.svelte-assets"
-            implementationClass = "com.bylazar.SvelteAssetsPlugin"
+            id = "com.pedropathing.panels.svelte-assets"
+            implementationClass = "com.pedropathing.panels.SvelteAssetsPlugin"
         }
     }
 }
