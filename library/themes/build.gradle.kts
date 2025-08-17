@@ -86,10 +86,10 @@ afterEvaluate {
                 url = uri("../../../maven.pedropathing.com")
             }
 
-            maven {
-                name = "localDevRepo"
-                url = uri("file:///C:/Users/lazar/Documents/GitHub/ftcontrol-maven/dev")
-            }
+            //            maven {
+//                name = "localDevRepo"
+//                url = uri("file:///C:/Users/lazar/Documents/GitHub/ftcontrol-maven/dev")
+//            }
         }
     }
 }

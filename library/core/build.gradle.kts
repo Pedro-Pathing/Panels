@@ -5,7 +5,7 @@ plugins {
     id("com.pedropathing.panels.svelte-assets")
 }
 
-val pluginNamespace = "com.pedropathing.panels"
+val pluginNamespace = "com.pedropathing.panels.core"
 val pluginVersion = "0.0.21"
 
 svelteAssets {
@@ -108,10 +108,10 @@ afterEvaluate {
                 url = uri("../../../maven.pedropathing.com")
             }
 
-            maven {
-                name = "localDevRepo"
-                url = uri("file:///C:/Users/lazar/Documents/GitHub/ftcontrol-maven/dev")
-            }
+            //            maven {
+//                name = "localDevRepo"
+//                url = uri("file:///C:/Users/lazar/Documents/GitHub/ftcontrol-maven/dev")
+//            }
         }
     }
 }

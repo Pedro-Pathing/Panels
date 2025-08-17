@@ -23,8 +23,8 @@ import kotlin.jvm.java
 open class ConfigurablesPluginConfig : BasePluginConfig() {
 }
 
-object Plugin : com.pedropathing.panels.configurables.Plugin<com.pedropathing.panels.configurables.ConfigurablesPluginConfig>(
-    _root_ide_package_.com.pedropathing.panels.configurables.ConfigurablesPluginConfig()
+object Plugin : com.pedropathing.panels.plugins.Plugin<ConfigurablesPluginConfig>(
+    ConfigurablesPluginConfig()
 ) {
     var fieldsMap = mutableMapOf<String, MyField>()
     var configurableClasses: List<ClassFinder.ClassEntry> = listOf()

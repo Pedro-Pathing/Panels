@@ -1,0 +1,1 @@
+import"../chunks/Bzak7iHL.js";import"../chunks/DQrGExAi.js";import{a1 as r,a8 as t,a0 as m}from"../chunks/Dzf0_vqf.js";import"../chunks/OLwK5Wgf.js";import"../chunks/VRJz6rhc.js";var p=r("<h1>Docs</h1> <div></div>",1);function v(o){var a=p();t(2),m(o,a)}export{v as component};
