@@ -67,7 +67,7 @@ afterEvaluate {
                 pom {
                     description.set("Panels Configurables Plugin")
                     name.set("Panels Configurables")
-                    url.set("https://panels.bylazar.com")
+                    url.set("https://maven.pedropathing.com")
 
                     developers {
                         developer {
@@ -81,6 +81,11 @@ afterEvaluate {
         }
 
         repositories {
+            maven {
+                name = "publishing"
+                url = uri("../../../maven.pedropathing.com")
+            }
+
             maven {
                 name = "localDevRepo"
                 url = uri("file:///C:/Users/lazar/Documents/GitHub/ftcontrol-maven/dev")

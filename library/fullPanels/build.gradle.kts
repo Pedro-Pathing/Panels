@@ -80,7 +80,7 @@ afterEvaluate {
                 pom {
                     description.set("All in one toolbox dashboard for FTC with core plugins.")
                     name.set("Full Panels")
-                    url.set("https://panels.bylazar.com")
+                    url.set("https://maven.pedropathing.com")
 
                     developers {
                         developer {
@@ -94,6 +94,11 @@ afterEvaluate {
         }
 
         repositories {
+            maven {
+                name = "publishing"
+                url = uri("../../../maven.pedropathing.com")
+            }
+
             maven {
                 name = "localDevRepo"
                 url = uri("file:///C:/Users/lazar/Documents/GitHub/ftcontrol-maven/dev")

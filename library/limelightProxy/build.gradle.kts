@@ -72,7 +72,7 @@ afterEvaluate {
                 pom {
                     description.set("Panels Limelight Proxy Plugin")
                     name.set("Panels Limelight Proxy")
-                    url.set("https://panels.bylazar.com")
+                    url.set("https://maven.pedropathing.com")
 
                     developers {
                         developer {
@@ -86,6 +86,11 @@ afterEvaluate {
         }
 
         repositories {
+            maven {
+                name = "publishing"
+                url = uri("../../../maven.pedropathing.com")
+            }
+
             maven {
                 name = "localDevRepo"
                 url = uri("file:///C:/Users/lazar/Documents/GitHub/ftcontrol-maven/dev")

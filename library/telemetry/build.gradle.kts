@@ -65,9 +65,9 @@ afterEvaluate {
                 version = pluginVersion
 
                 pom {
-                    description.set("Panels Telemetry Plugin")
-                    name.set("Panels Telemetry")
-                    url.set("https://panels.bylazar.com")
+                    description.set("Panels Themes Plugin")
+                    name.set("Panels Themes")
+                    url.set("https://maven.pedropathing.com")
 
                     developers {
                         developer {
@@ -81,6 +81,11 @@ afterEvaluate {
         }
 
         repositories {
+            maven {
+                name = "publishing"
+                url = uri("../../../maven.pedropathing.com")
+            }
+
             maven {
                 name = "localDevRepo"
                 url = uri("file:///C:/Users/lazar/Documents/GitHub/ftcontrol-maven/dev")

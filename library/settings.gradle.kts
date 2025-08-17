@@ -5,8 +5,6 @@ pluginManagement {
     }
 }
 
-include(":FtcRobotController")
-include(":TeamCode")
 include(":opModeControl")
 include(":examplePlugin")
 include(":telemetry")
