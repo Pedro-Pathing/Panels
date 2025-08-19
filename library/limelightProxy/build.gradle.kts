@@ -45,14 +45,9 @@ android {
 }
 
 dependencies {
-    compileOnly("org.firstinspires.ftc:Inspection:10.3.0")
-    compileOnly("org.firstinspires.ftc:Blocks:10.3.0")
     compileOnly("org.firstinspires.ftc:RobotCore:10.3.0")
-    compileOnly("org.firstinspires.ftc:RobotServer:10.3.0")
-    compileOnly("org.firstinspires.ftc:OnBotJava:10.3.0")
     compileOnly("org.firstinspires.ftc:Hardware:10.3.0")
     compileOnly("org.firstinspires.ftc:FtcCommon:10.3.0")
-    compileOnly("org.firstinspires.ftc:Vision:10.3.0")
     compileOnly(project(":core"))
 
     implementation("com.squareup.okhttp3:okhttp:4.10.0")

@@ -6,7 +6,7 @@ plugins {
 }
 
 val pluginNamespace = "com.pedropathing.panels.core"
-val pluginVersion = "0.0.21"
+val pluginVersion = "0.0.23"
 
 svelteAssets {
     webAppPath = "web"
@@ -50,22 +50,17 @@ android {
 }
 
 dependencies {
-    implementation("androidx.core:core-ktx:1.15.0")
-    implementation("androidx.appcompat:appcompat:1.7.1")
+    implementation("androidx.core:core-ktx:1.7.0")
+    implementation("androidx.appcompat:appcompat:1.2.0")
     implementation("com.google.android.material:material:1.12.0")
 
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.2.1")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.6.1")
 
-    compileOnly("org.firstinspires.ftc:Inspection:10.3.0")
-    compileOnly("org.firstinspires.ftc:Blocks:10.3.0")
     compileOnly("org.firstinspires.ftc:RobotCore:10.3.0")
-    compileOnly("org.firstinspires.ftc:RobotServer:10.3.0")
-    compileOnly("org.firstinspires.ftc:OnBotJava:10.3.0")
     compileOnly("org.firstinspires.ftc:Hardware:10.3.0")
     compileOnly("org.firstinspires.ftc:FtcCommon:10.3.0")
-    compileOnly("org.firstinspires.ftc:Vision:10.3.0")
 
     implementation("org.nanohttpd:nanohttpd-websocket:2.3.1") {
         exclude(module = "nanohttpd")

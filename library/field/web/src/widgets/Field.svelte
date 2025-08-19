@@ -108,7 +108,7 @@
     })
 </script>
 
-<canvas bind:this={canvas}></canvas>
+<canvas bind:this={canvas}></canvas>1
 <p>Offsets X: {packet.offsetX} Y: {packet.offsetY} ROT: {packet.rotation}</p>
 <p>Images: {Object.values(images).length}</p>
 
